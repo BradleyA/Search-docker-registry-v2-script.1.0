@@ -1,0 +1,22 @@
+#!/bin/bash
+# %W% %G% %U%
+#
+#	View private registry v2,
+#		if REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY is mounted on your system
+#
+#	Enter the full path to your private registry v2
+REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY="/mnt/three/docker-registry/registry-data"
+#
+find $REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY -print | \
+	grep 'v2/repositories' | \
+	grep 'current' | \
+	grep -v 'link' | \
+	sed -e 's/\/_manifests\/tags\//:/' | \
+	sed -e 's/\/current//' | \
+	sed -e 's/^.*repositories\//	/' | \
+	sort > /tmp/a1
+cat /tmp/a1
+wc -l /tmp/a1 > /tmp/a2
+echo "Number of images:	`cat /tmp/a2 | awk {'print $1'}`"
+echo "Disk space used:	`du -hs $REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY`"
+rm /tmp/a1 /tmp/a2
