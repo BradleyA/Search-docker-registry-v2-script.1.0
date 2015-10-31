@@ -8,7 +8,7 @@ To install, change directory to the location you want to download the script dir
 
 Edit view-private-registry script, change REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY to the path to your registry storage filesystem root directry.
 
-     REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY="\<your registry storage filesystem root directry\>"
+     REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY="<your registry storage filesystem root directry>"
 
 Move the script or create a symbolic link to a location in your working path; example /usr/local/bin. To find directories in your working path use; "echo $PATH".
 
@@ -17,13 +17,16 @@ Move the script or create a symbolic link to a location in your working path; ex
     view-private-registry
 ## Version of registry v2 using
  * registry github.com/docker/distribution v2.1.1
+
 ## System OS script tested
  * Ubuntu 14.04.3 LTS
  * CoreOS 723.3.0
+
 ## Design Principles
  * Have a simple setup process and a minimal learning curve
  * Be usable as non-root
  * Be easy to install and configure
+
 ## License
 view-private-registry is free software/open source.
 
