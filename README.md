@@ -12,19 +12,21 @@ Edit view-private-registry script, change PERSISTENT_REGISTRY_STORAGE_FILESYSTEM
 
 Move the script or create a symbolic link to a location in your working path; example /usr/local/bin. To find directories in your working path use; "echo $PATH".
 
-    sudo ln -s ./view-private-registry /usr/local/bin/view-private-registry
+    cp view-private-registry ..
+    cd ..
+    sudo ln -s $PWD/view-private-registry /usr/local/bin/view-private-registry
 
 ## Usage
     view-private-registry
 
-### Version of registry v2 using
+#### Version of registry v2 using
  * registry github.com/docker/distribution v2.1.1
 
-### System OS script tested
+#### System OS script tested
  * Ubuntu 14.04.3 LTS
  * CoreOS 723.3.0
 
-### Design Principles
+#### Design Principles
  * Have a simple setup process and a minimal learning curve
  * Be usable as non-root
  * Be easy to install and configure
