@@ -4,20 +4,25 @@ view-private-registry is a bash script for listing images in a private registry 
 ## System OS script tested
  * Ubuntu 14.04.3 LTS
  * CoreOS 723.3.0
+
 ## Version of registry v2 using
  * registry github.com/docker/distribution v2.1.1
+
 ## Install
 To install, change directory to the location you want to download the script directory.  Use git to copy or clone script into directory. If you do not have git then enter; "sudo apt-get install git".  On the github page of this script use the "HTTPS clone URL" with the 'git clone' command. 
 Example:
-  git clone https://github.com/BradleyA/Search-docker-registry-v2-script.git
-  cd Search-docker-registry-v2-script
+
+    git clone https://github.com/BradleyA/Search-docker-registry-v2-script.git
+    cd Search-docker-registry-v2-script
 
 Edit view-private-registry script, change REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY to the path to your registry storage filesystem root directry.
-   REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY="<your registry storage filesystem root directry>"
+     REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY="<your registry storage filesystem root directry>"
 
 Move the script or create a symbolic link to a location in your working path; example /usr/local/bin. To find directories in your working path use; "echo $PATH".
 Example:
-  sudo ln -s ./view-private-registry /usr/local/bin/view-private-registry
+
+    sudo ln -s ./view-private-registry /usr/local/bin/view-private-registry
+
 ## Usage
    view-private-registry
 ## Design Principles
@@ -29,5 +34,5 @@ view-private-registry is free software/open source.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSET. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
