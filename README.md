@@ -6,23 +6,25 @@ To install, change directory to the location you want to download the script dir
     git clone https://github.com/BradleyA/Search-docker-registry-v2-script.git
     cd Search-docker-registry-v2-script
 
-Edit view-private-registry script, change REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY to the path to your registry storage filesystem root directry.
+Edit view-private-registry script, change PERSISTENT_REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY to the path to your registry storage filesystem root directry.  It is the volume you used when start the registry for /var/lib/registry.
 
-     REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY="<your registry storage filesystem root directry>"
+     PERSISTENT_REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY="<your registry storage filesystem root directry>"
 
 Move the script or create a symbolic link to a location in your working path; example /usr/local/bin. To find directories in your working path use; "echo $PATH".
 
     sudo ln -s ./view-private-registry /usr/local/bin/view-private-registry
+
 ## Usage
     view-private-registry
-## Version of registry v2 using
+
+### Version of registry v2 using
  * registry github.com/docker/distribution v2.1.1
 
-## System OS script tested
+### System OS script tested
  * Ubuntu 14.04.3 LTS
  * CoreOS 723.3.0
 
-## Design Principles
+### Design Principles
  * Have a simple setup process and a minimal learning curve
  * Be usable as non-root
  * Be easy to install and configure
