@@ -19,6 +19,28 @@ Move the script or create a symbolic link to a location in your working path; ex
 ## Usage
     view-private-registry
 
+## Output
+
+    $ view-private-registry`
+    busybox:latest
+    gcr.io/google_containers/etcd:2.0.9
+    gcr.io/google_containers/hyperkube:v0.21.2
+    gcr.io/google_containers/pause:0.8.0
+    google/cadvisor:latest
+    jenkins:latest
+    logstash:latest
+    mongo:latest
+    nginx:latest
+    python:2.7
+    redis:latest
+    registry:2.1.1
+    stackengine/controller:latest
+    tomcat:7
+    tomcat:latest
+    ubuntu:14.04.2
+    Number of images:   16
+    Disk space used:    1.7G    /mnt/three/docker-registry/registry-data
+
 #### Version of registry v2 using
  * registry github.com/docker/distribution v2.1.1
 
