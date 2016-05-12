@@ -5,7 +5,7 @@
 #		if PERSISTENT_REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY is mounted on your system
 #
 #	Enter the full path to your private registry v2
-PERSISTENT_REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY="/mnt/three/docker-registry/registry-data"
+PERSISTENT_REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY="/usr/local/docker-registry/docker"
 #
 find $PERSISTENT_REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY -print | \
 	grep 'v2/repositories' | \
