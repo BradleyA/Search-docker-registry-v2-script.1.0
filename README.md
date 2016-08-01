@@ -3,7 +3,7 @@ view-private-registry is a bash script for listing images in a private registry 
 
 view-private-registry-remote is a bash script for listing images in a private registry v2 from a remote system that does not have the NFS filesystem where the images are stored, mounted.  This script requires ssh to be installed and configured on the systems required to run it.
 ## Install
-To install, change directory to the location you want to download the script directory.  Use git to pull or clone this script into directory.  If you do not have git then enter; "sudo apt-get install git".  On the github page of this script use the "HTTPS clone URL" with the 'git clone' command. 
+To install, change directory to the location you want to download the scripts.  Use git to pull or clone these scripts into the directory.  If you do not have git then enter; "sudo apt-get install git".  On the github page of this script use the "HTTPS clone URL" with the 'git clone' command. 
 
     git clone https://github.com/BradleyA/Search-docker-registry-v2-script.git
     cd Search-docker-registry-v2-script
@@ -17,9 +17,16 @@ Move the script or create a symbolic link to a location in your working path; ex
     cp view-private-registry ..
     cd ..
     sudo ln -s $PWD/view-private-registry /usr/local/bin/view-private-registry
+    
+Edit view-private-registry-remote script, change REMOTE_REGISTRY_HOST to the remote host that has the registry mounted, change REMOTE_ADMIN_ACCOUNT to the ssh admin account for the above host.  
+
+     REMOTE_REGISTRY_HOST="<server IP address or FQDN>"
+     REMOTE_ADMIN_ACCOUNT="<ssh admin account for the above host>"
 
 ## Usage
     view-private-registry
+or
+    view-private-registry-remote
 
 ## Output
 
