@@ -1,0 +1,11 @@
+#!/bin/bash
+# %W% %G% %U%
+#
+#       View private registry v2 from remote host,
+#
+#       Enter remote registtry v2 server IP address or FQDN
+REMOTE_REGISTRY_HOST="192.168.1.203"
+#       Enter remote registry v2 ssh admin account for the above host
+REMOTE_ADMIN_ACCOUNT="uthree"
+#
+ssh $REMOTE_ADMIN_ACCOUNT@$REMOTE_REGISTRY_HOST /usr/local/bin/view-private-registry
