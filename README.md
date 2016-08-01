@@ -26,8 +26,10 @@ Edit view-private-registry-remote script, change REMOTE_REGISTRY_HOST to the rem
 Move the script or create a symbolic link to a location in your working path (see example above). 
 
 ## Usage
+
     view-private-registry
 or
+
     view-private-registry-remote
 
 ## Output
