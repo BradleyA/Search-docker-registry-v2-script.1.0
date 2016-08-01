@@ -18,7 +18,7 @@ Move the script or create a symbolic link to a location in your working path; ex
     cd ..
     sudo ln -s $PWD/view-private-registry /usr/local/bin/view-private-registry
     
-Edit view-private-registry-remote script, change REMOTE_REGISTRY_HOST to the remote host that has the registry mounted, change REMOTE_ADMIN_ACCOUNT to the ssh admin account for the above host.  
+Edit view-private-registry-remote script, change REMOTE_REGISTRY_HOST to the remote host that has the registry v2 mounted, change REMOTE_ADMIN_ACCOUNT to the ssh admin account on the REMOTE_REGISTRY_HOST.  
 
      REMOTE_REGISTRY_HOST="<server IP address or FQDN>"
      REMOTE_ADMIN_ACCOUNT="<ssh admin account for the above host>"
