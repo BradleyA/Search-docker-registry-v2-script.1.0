@@ -23,6 +23,8 @@ Edit view-private-registry-remote script, change REMOTE_REGISTRY_HOST to the rem
      REMOTE_REGISTRY_HOST="<server IP address or FQDN>"
      REMOTE_ADMIN_ACCOUNT="<ssh admin account for the above host>"
 
+Move the script or create a symbolic link to a location in your working path (see example above). 
+
 ## Usage
     view-private-registry
 or
