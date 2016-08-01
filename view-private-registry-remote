@@ -7,5 +7,22 @@
 REMOTE_REGISTRY_HOST="192.168.1.203"
 #       Enter remote registry v2 ssh admin account for the above host
 REMOTE_ADMIN_ACCOUNT="uthree"
+if [ "$1" == "--help" ]
+then
+        echo $1"Usage: view-private-registry-remote REMOTE_REGISTRY_HOST REMOTE_ADMIN_ACCOUNT"
+	exit
+fi
+if [ -z $1 ]
+then
+#       Set remote registtry v2 server IP address or FQDN
+	REMOTE_REGISTRY_HOST="$1"
+        echo "REMOTE_REGISTRY_HOST=$1"
+fi
+if [ -z $2 ]
+then
+#       Set remote registry v2 ssh admin account for the above host
+	REMOTE_ADMIN_ACCOUNT="$2"
+        echo "REMOTE_ADMIN_ACCOUNT=$2"
+fi
 ##
 ssh $REMOTE_ADMIN_ACCOUNT@$REMOTE_REGISTRY_HOST /usr/local/bin/view-private-registry
