@@ -16,13 +16,13 @@ then
         echo -e "\nOptions:\n\t--help	Print usage\n"
 	exit
 fi
-if [ -z $1 ]
+if [ ! -z $1 ]
 then
 #       Set remote registtry v2 server IP address or FQDN
 	REMOTE_REGISTRY_HOST="$1"
         echo "REMOTE_REGISTRY_HOST=$1"
 fi
-if [ -z $2 ]
+if [ ! -z $2 ]
 then
 #       Set remote registry v2 ssh admin account for the above host
 	REMOTE_ADMIN_ACCOUNT="$2"
