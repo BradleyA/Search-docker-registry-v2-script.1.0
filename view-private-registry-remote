@@ -9,7 +9,11 @@ REMOTE_REGISTRY_HOST="192.168.1.203"
 REMOTE_ADMIN_ACCOUNT="uthree"
 if [ "$1" == "--help" ]
 then
-        echo $1"Usage: view-private-registry-remote REMOTE_REGISTRY_HOST REMOTE_ADMIN_ACCOUNT"
+        echo -e "\nUsage:  view-private-registry-remote [REMOTE_REGISTRY_HOST] [REMOTE_ADMIN_ACCOUNT]"
+        echo -e "\nDisplay remote private registry."
+	echo -e "\nDefault:\n\tREMOTE_REGISTRY_HOST=$REMOTE_REGISTRY_HOST"
+	echo -e "\tREMOTE_ADMIN_ACCOUNT=$REMOTE_ADMIN_ACCOUNT"
+        echo -e "\nOptions:\n\t--help	Print usage\n"
 	exit
 fi
 if [ -z $1 ]
