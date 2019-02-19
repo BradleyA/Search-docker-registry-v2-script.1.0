@@ -11,7 +11,7 @@ To install, change directory to the location you want to download the scripts.  
     git clone https://github.com/BradleyA/Search-docker-registry-v2-script.git
     cd Search-docker-registry-v2-script
 
-Edit view-private-registry script, change PERSISTENT_REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY to the path to your registry storage filesystem root directry.  It is the volume you used when start the registry for /var/lib/registry.
+Edit view-private-registry script, change PERSISTENT_REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY to the path to your registry storage filesystem root directry.  It is the volume you used when starting the registry for /var/lib/registry.
 
      PERSISTENT_REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY="<your registry storage filesystem root directry>"
 
