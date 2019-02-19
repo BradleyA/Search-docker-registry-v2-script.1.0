@@ -1,6 +1,11 @@
 #!/bin/bash
-# %W% %G% %U%
+#	view-private-registry-remote  v2.1.41  2019-02-18T23:09:55.988450-06:00 (CST)  https://github.com/BradleyA/Search-docker-registry-v2-script.git  uadmin  two.cptx86.com V2.1  
+#	   add License and mark file with markit 
 #
+### view-private-registry
+#       Copyright (c) 2019 Bradley Allen
+#       License is in the online DOCUMENTATION, see github
+### view-private-registry-remote
 #       View private registry v2 from remote host
 #
 #       Enter remote registtry v2 server IP address or FQDN
