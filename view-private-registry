@@ -1,7 +1,11 @@
 #!/bin/bash
-# %W% %G% %U%
+#	view-private-registry  V2.1.40  2019-02-18T22:40:30.213875-06:00 (CST)  https://github.com/BradleyA/Search-docker-registry-v2-script.git  uadmin  two.cptx86.com v2.0-16-gc60205a  
+#	   add License and mark file with markit 
 #
-#	View private registry v2,
+### view-private-registry
+#       Copyright (c) 2019 Bradley Allen
+#       License is in the online DOCUMENTATION, see github
+### 	View private registry v2,
 #		if PERSISTENT_REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY is mounted on your system
 #
 #	Enter the full path to your private registry v2
