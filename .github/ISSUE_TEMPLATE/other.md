@@ -1,6 +1,6 @@
 ---
 name: Other
-about: Describe this issue template's purpose here.
+about: Miscellaneous
 title: "[enter command] - [enter brief description]"
 labels: ''
 assignees: BradleyA
