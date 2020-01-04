@@ -3,7 +3,6 @@ view-private-registry is a bash script for listing images in a private registry 
 
 view-private-registry-remote is a bash script for listing images in a private registry v2 from a remote system that does not have the NFS filesystem mounted where the images are stored.  This script requires ssh to be installed and configured on the systems required to run this script.  This script calls the view-private-registry script that is on the host with the NFS filesystem mounted.
 #### If you like this repository, select in the upper-right corner, STAR, thank you.
-#### To watch future updates in this repository select in the upper-right corner, the "Watch" list, and select Watching. 
 
 ## Install
 To install, change directory to the location you want to download the scripts.  Use git to pull or clone these scripts into the directory.  If you do not have git then enter; "sudo apt-get install git".  On the github page of this script use the "HTTPS clone URL" with the 'git clone' command. 
@@ -64,19 +63,16 @@ or
 I wrote a few scripts that may help you with the private registry and TLS.  The scripts are [create-registry-tls.sh](https://github.com/BradleyA/docker-security-infrastructure/tree/master/docker-TLS#usage-9), [copy-registry-tls.sh](https://github.com/BradleyA/docker-security-infrastructure/tree/master/docker-TLS#usage-10), and [check-registry-tls.sh](https://github.com/BradleyA/docker-security-infrastructure/tree/master/docker-TLS#usage-11).   These scripts support --help and --usage options to reduce the learning curve.
 
 #### Traffic
-
  * <img alt="Clones" src="https://img.shields.io/static/v1?label=Clones&message=56&color=blue">  [Clones Table](images/clone.table.md)
  * <img alt="Views" src="https://img.shields.io/static/v1?label=Views&message=1287&color=blue">  [Views Table](images/view.table.md)
- 
-**Note**  Data collection stopped between 10/14 & 12/23
- 
- #### Author
+
+#### Author
 [<img id="twitter" src="images/twitter.png" width="50" a="twitter.com/bradleyaustintx/">
 ](https://twitter.com/bradleyaustintx/)   [<img id="github" src="images/github.png" width="50" a="https://github.com/BradleyA/">
 ](https://github.com/BradleyA/)    [<img src="images/linkedin.png" style="max-width:100%;" >](https://www.linkedin.com/in/bradleyhallen).
 
 #### System OS script tested
- * Ubuntu 14.04.3 LTS
+ * Ubuntu 14.04.3 LTS (amd64,armv7l)
  * CoreOS 723.3.0
 
 #### Design Principles
@@ -84,10 +80,10 @@ I wrote a few scripts that may help you with the private registry and TLS.  The 
  * Be usable as non-root
  * Be easy to install and configure
 
-## License
+#### License
 MIT License
 
-Copyright (c) 2019 [Bradley Allen](https://www.linkedin.com/in/bradleyhallen)
+Copyright (c) 2020 [Bradley Allen](https://www.linkedin.com/in/bradleyhallen)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
