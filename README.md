@@ -63,7 +63,7 @@ or
 I wrote a few scripts that may help you with the private registry and TLS.  The scripts are [create-registry-tls.sh](https://github.com/BradleyA/docker-security-infrastructure/tree/master/docker-TLS#usage-9), [copy-registry-tls.sh](https://github.com/BradleyA/docker-security-infrastructure/tree/master/docker-TLS#usage-10), and [check-registry-tls.sh](https://github.com/BradleyA/docker-security-infrastructure/tree/master/docker-TLS#usage-11).   These scripts support --help and --usage options to reduce the learning curve.
 
 #### Traffic
- * <img alt="Clones" src="https://img.shields.io/static/v1?label=Clones&message=56&color=blue">  [Clones Table](images/clone.table.md)
+ * <img alt="Clones" src="https://img.shields.io/static/v1?label=Clones&message=102&color=blue">  [Clones Table](images/clone.table.md)
  * <img alt="Views" src="https://img.shields.io/static/v1?label=Views&message=1900&color=blue">  [Views Table](images/view.table.md)
 
 #### Author
