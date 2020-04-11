@@ -1,4 +1,10 @@
-# Search-docker-registry-v2-script  [![Stable Release](https://img.shields.io/badge/Release-v2.2-blue.svg)](https://github.com/BradleyA/Search-docker-registry-v2-script/releases/tag/v2.2)    [![GitHub commits](https://img.shields.io/github/commits-since/BradleyA/Search-docker-registry-v2-script/v2.2.svg)](https://github.com/BradleyA/Search-docker-registry-v2-script/commits/)
+# Search-docker-registry-v2-script
+[![Stable Release](https://img.shields.io/badge/Release-v2.2-blue.svg)](https://github.com/BradleyA/Search-docker-registry-v2-script/releases/tag/v2.2)
+[![GitHub commits](https://img.shields.io/github/commits-since/BradleyA/Search-docker-registry-v2-script/v2.2.svg)](https://github.com/BradleyA/Search-docker-registry-v2-script/commits/)
+[![MIT License](http://img.shields.io/badge/License-MIT-red.png)](LICENSE)
+[<img alt="Clones" src="https://img.shields.io/static/v1?label=Clones&message=102&color=blue">](images/clone.table.md)
+[<img alt="Views" src="https://img.shields.io/static/v1?label=Views&message=1900&color=blue">](images/view.table.md)
+
 view-private-registry is a bash script for listing images in a private registry v2.  It does not require registry v2 to be running on the system, only the filesystem where the images are stored.  Docker search registry v2 functionality is currently not supported at the time of this writing. See discussion since Feb 2015: "propose registry search functionality #206" https://github.com/docker/distribution/issues/206
 
 view-private-registry-remote is a bash script for listing images in a private registry v2 from a remote system that does not have the NFS filesystem mounted where the images are stored.  This script requires ssh to be installed and configured on the systems required to run this script.  This script calls the view-private-registry script that is on the host with the NFS filesystem mounted.
@@ -61,10 +67,6 @@ or
  
 #### Registry with TLS
 I wrote a few scripts that may help you with the private registry and TLS.  The scripts are [create-registry-tls.sh](https://github.com/BradleyA/docker-security-infrastructure/tree/master/docker-TLS#usage-9), [copy-registry-tls.sh](https://github.com/BradleyA/docker-security-infrastructure/tree/master/docker-TLS#usage-10), and [check-registry-tls.sh](https://github.com/BradleyA/docker-security-infrastructure/tree/master/docker-TLS#usage-11).   These scripts support --help and --usage options to reduce the learning curve.
-
-#### Traffic
- * <img alt="Clones" src="https://img.shields.io/static/v1?label=Clones&message=102&color=blue">  [Clones Table](images/clone.table.md)
- * <img alt="Views" src="https://img.shields.io/static/v1?label=Views&message=1900&color=blue">  [Views Table](images/view.table.md)
 
 #### Author
 [<img id="twitter" src="images/twitter.png" width="50" a="twitter.com/bradleyaustintx/">
