@@ -1,14 +1,14 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: Feature request - [enter brief description]
+title: Feature request - [enter command if available] - [enter brief description]
 labels: new command/service
 assignees: BradleyA
 
 ---
 
 **Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+A clear and concise description of what the problem is. Ex. I'm always frustrated when:
 
     ->
 
