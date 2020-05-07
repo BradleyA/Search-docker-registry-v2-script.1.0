@@ -14,7 +14,7 @@ Views:  |         48      |       87      |       91      |       84      |     
 Unique  vistors:  |       26      |       40      |       38      |       37      |       8       |       19      |       22      |       15      |       30      |      40  |      40  |      31  |      32  |      27  |      2  |      24  |      28  |      18  |      19
 
 Total views: 1370
-###### Updated: 2019-12-31
+###### Updated: 2020-01-04
 **Note**  Data collection stopped between 10/14/2019 & 12/9/2019
 
 [Return to README](https://github.com/BradleyA/Search-docker-registry-v2-script.1.0/blob/master/README.md#Search-docker-registry-v2-script)
