@@ -7,7 +7,6 @@ assignees: BradleyA
 
 ---
 
-**Tell us about your comment:**
-What you are commenting about:
+**Tell us what you are thinking about:**
 
     -> 
