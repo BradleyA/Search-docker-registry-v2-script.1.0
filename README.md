@@ -2,7 +2,7 @@
 [![Stable Release](https://img.shields.io/badge/Release-v2.2-blue.svg)](https://github.com/BradleyA/Search-docker-registry-v2-script/releases/tag/v2.2)
 [![GitHub commits](https://img.shields.io/github/commits-since/BradleyA/Search-docker-registry-v2-script/v2.2.svg)](https://github.com/BradleyA/Search-docker-registry-v2-script/commits/)
 [![MIT License](http://img.shields.io/badge/License-MIT-red.png)](LICENSE)
-[<img alt="Clones" src="https://img.shields.io/static/v1?label=Clones&message=145&color=blue">](images/clone.table.md)
+[<img alt="Clones" src="https://img.shields.io/static/v1?label=Clones&message=190&color=blue">](images/clone.table.md)
 [<img alt="Views" src="https://img.shields.io/static/v1?label=Views&message=2592&color=blue">](images/view.table.md)
 
 view-private-registry is a bash script for listing images in a private registry v2.  It does not require registry v2 to be running on the system, only the filesystem where the images are stored.  Docker search registry v2 functionality is currently not supported at the time of this writing. See discussion since Feb 2015: "propose registry search functionality #206" https://github.com/docker/distribution/issues/206
