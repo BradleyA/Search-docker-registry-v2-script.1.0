@@ -69,9 +69,7 @@ or
 I wrote a few scripts that may help you with the private registry and TLS.  The scripts are [create-registry-tls.sh](https://github.com/BradleyA/docker-security-infrastructure/tree/master/docker-TLS#usage-9), [copy-registry-tls.sh](https://github.com/BradleyA/docker-security-infrastructure/tree/master/docker-TLS#usage-10), and [check-registry-tls.sh](https://github.com/BradleyA/docker-security-infrastructure/tree/master/docker-TLS#usage-11).   These scripts support --help and --usage options to reduce the learning curve.
 
 #### Author
-[<img id="twitter" src="images/twitter.png" width="50" a="twitter.com/bradleyaustintx/">
-](https://twitter.com/bradleyaustintx/)   [<img id="github" src="images/github.png" width="50" a="https://github.com/BradleyA/">
-](https://github.com/BradleyA/)    [<img src="images/linkedin.png" style="max-width:100%;" >](https://www.linkedin.com/in/bradleyhallen).
+[<img id="github" src="images/github.png" width="50" a="https://github.com/BradleyA/">](https://github.com/BradleyA/)    [<img src="images/linkedin.png" style="max-width:100%;" >](https://www.linkedin.com/in/bradleyhallen) [<img id="twitter" src="images/twitter.png" width="50" a="twitter.com/bradleyaustintx/">](https://twitter.com/bradleyaustintx/)       <a href="https://twitter.com/intent/follow?screen_name=bradleyaustintx"> <img src="https://img.shields.io/twitter/follow/bradleyaustintx.svg?label=Follow%20@bradleyaustintx" alt="Follow @bradleyaustintx" />    </a>
 
 #### System OS script tested
  * Ubuntu 14.04.3 LTS (amd64,armv7l)
