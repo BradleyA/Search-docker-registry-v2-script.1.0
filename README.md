@@ -6,7 +6,7 @@
 [<img alt="Views" src="https://img.shields.io/static/v1?label=Views&message=3071&color=blue">](images/view.table.md)
 
 [![GitHub Stable Release](https://img.shields.io/badge/Release-v2.2-blue.svg)](https://github.com/BradleyA/Search-docker-registry-v2-script/releases/tag/v2.2)
-[![GitHub Release Date](https://img.shields.io/github/release-date/BradleyA/Search-docker-registry-v2-script?color=blue)]<! ---(https://github.com/BradleyA/Search-docker-registry-v2-script/blob/master/CHANGELOG.md)
+[![GitHub Release Date](https://img.shields.io/github/release-date/BradleyA/Search-docker-registry-v2-script?color=blue)] <!---(https://github.com/BradleyA/Search-docker-registry-v2-script/blob/master/CHANGELOG.md)
 
 [![GitHub Commits Since](https://img.shields.io/github/commits-since/BradleyA/Search-docker-registry-v2-script/3.1.1?color=orange)](https://github.com/BradleyA/Search-docker-registry-v2-script/commits/)
 [![GitHub Last Commits](https://img.shields.io/github/last-commit/BradleyA/Search-docker-registry-v2-script.svg)](https://github.com/BradleyA/Search-docker-registry-v2-script/commits/)
