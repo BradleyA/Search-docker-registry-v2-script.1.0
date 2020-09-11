@@ -1,14 +1,10 @@
 # Search-docker-registry-v2-script
-[![GitHub commits](https://img.shields.io/github/commits-since/BradleyA/Search-docker-registry-v2-script/v2.2.svg)](https://github.com/BradleyA/Search-docker-registry-v2-script/commits/)
-
-[![MIT License](http://img.shields.io/badge/License-MIT-red.png)](LICENSE)
 [<img alt="Clones" src="https://img.shields.io/static/v1?label=Clones&message=190&color=blue">](images/clone.table.md)
 [<img alt="Views" src="https://img.shields.io/static/v1?label=Views&message=3071&color=blue">](images/view.table.md)
 
 [![GitHub Stable Release](https://img.shields.io/badge/Release-v2.2-blue.svg)](https://github.com/BradleyA/Search-docker-registry-v2-script/releases/tag/v2.2)
 ![GitHub Release Date](https://img.shields.io/github/release-date/BradleyA/Search-docker-registry-v2-script?color=blue)
-
-[![GitHub Commits Since](https://img.shields.io/github/commits-since/BradleyA/Search-docker-registry-v2-script/3.1.1?color=orange)](https://github.com/BradleyA/Search-docker-registry-v2-script/commits/)
+[![GitHub Commits Since](https://img.shields.io/github/commits-since/BradleyA/Search-docker-registry-v2-script/v2.2?color=orange)](https://github.com/BradleyA/Search-docker-registry-v2-script/commits/)
 [![GitHub Last Commits](https://img.shields.io/github/last-commit/BradleyA/Search-docker-registry-v2-script.svg)](https://github.com/BradleyA/Search-docker-registry-v2-script/commits/)
 
 [![GitHub Open Issues](https://img.shields.io/github/issues/BradleyA/Search-docker-registry-v2-script?color=purple)](https://github.com/BradleyA/Search-docker-registry-v2-script/issues?q=is%3Aopen+is%3Aissue)
