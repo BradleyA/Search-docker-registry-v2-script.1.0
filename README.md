@@ -12,7 +12,10 @@
 ![Language Bash](https://img.shields.io/badge/%20Language-bash-blue.svg)
 [![MIT License](http://img.shields.io/badge/License-MIT-blue.png)](LICENSE)
 
-----
+## Goal
+
+
+#### If you like this repository, select in the upper-right corner, [![GitHub stars](https://img.shields.io/github/stars/BradleyA/Search-docker-registry-v2-script.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/BradleyA/Search-docker-registry-v2-script/stargazers/), thank you.
 
 view-private-registry is a bash script for listing images in a private registry v2.  It does not require registry v2 to be running on the system, only the filesystem where the images are stored.  Docker search registry v2 functionality is currently not supported at the time of this writing. See discussion since Feb 2015: "propose registry search functionality #206" https://github.com/docker/distribution/issues/206
 
@@ -78,7 +81,7 @@ or
 I wrote a few scripts that may help you with the private registry and TLS.  The scripts are [create-registry-tls.sh](https://github.com/BradleyA/docker-security-infrastructure/tree/master/docker-TLS#usage-9), [copy-registry-tls.sh](https://github.com/BradleyA/docker-security-infrastructure/tree/master/docker-TLS#usage-10), and [check-registry-tls.sh](https://github.com/BradleyA/docker-security-infrastructure/tree/master/docker-TLS#usage-11).   These scripts support --help and --usage options to reduce the learning curve.
 
 #### Author
-[<img id="github" src="images/github.png" width="50" a="https://github.com/BradleyA/">](https://github.com/BradleyA/)    [<img src="images/linkedin.png" style="max-width:100%;" >](https://www.linkedin.com/in/bradleyhallen) [<img id="twitter" src="images/twitter.png" width="50" a="twitter.com/bradleyaustintx/">](https://twitter.com/bradleyaustintx/)       <a href="https://twitter.com/intent/follow?screen_name=bradleyaustintx"> <img src="https://img.shields.io/twitter/follow/bradleyaustintx.svg?label=Follow%20@bradleyaustintx" alt="Follow @bradleyaustintx" />    </a>
+[<img id="github" src="images/github.png" width="50" a="https://github.com/BradleyA/">](https://github.com/BradleyA/)    [<img src="images/linkedin.png" style="max-width:100%;" >](https://www.linkedin.com/in/bradleyhallen) [<img id="twitter" src="images/twitter.png" width="50" a="twitter.com/bradleyaustintx/">](https://twitter.com/bradleyaustintx/)       <a href="https://twitter.com/intent/follow?screen_name=bradleyaustintx"> <img src="https://img.shields.io/twitter/follow/bradleyaustintx.svg?label=Follow%20@bradleyaustintx" alt="Follow @bradleyaustintx" />    </a>          [![GitHub followers](https://img.shields.io/github/followers/BradleyA.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/BradleyA?tab=followers)
 
 #### System OS script tested
  * Ubuntu 14.04.3 LTS (amd64,armv7l)
