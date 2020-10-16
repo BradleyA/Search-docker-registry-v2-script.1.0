@@ -27,11 +27,11 @@ List images on docker registry v2
 - [Usage](#Usage)
 - [Output](#Output)
 - [TLS](#TLS)
-    - [Author](#Author)
-    - [Version of registry v2 using](#Version of registry v2 using)
-    - [System OS script tested](#System-OS-script-tested)
-    - [Design Principles](#Design-Principles)
-    - [License](#License)
+- [Author](#Author)
+- [Version of registry v2 using](#Version of registry v2 using)
+- [System OS script tested](#System-OS-script-tested)
+- [Design Principles](#Design-Principles)
+- [License](#License)
 
 </details>
 
