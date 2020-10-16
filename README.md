@@ -114,7 +114,7 @@ I wrote a few scripts that may help you with the private registry and TLS.  The 
 
 [Return to top](https://github.com/BradleyA/Search-docker-registry-v2-script.1.0/blob/master/README.md#search-docker-registry-v2-script)
 
-#### System OS script tested
+#### OS tested
  * CoreOS 723.3.0
  * Raspbian GNU/Linux 10 (buster)
  * Ubuntu 14.04.3 LTS (amd64,armv7l)
