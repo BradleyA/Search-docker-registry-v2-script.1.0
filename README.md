@@ -14,12 +14,33 @@
 
 ## Goal
 
+List images on docker registry v2
 
 #### If you like this repository, select in the upper-right corner, [![GitHub stars](https://img.shields.io/github/stars/BradleyA/Search-docker-registry-v2-script.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/BradleyA/Search-docker-registry-v2-script/stargazers/), thank you.
 
-view-private-registry is a bash script for listing images in a private registry v2.  It does not require registry v2 to be running on the system, only the filesystem where the images are stored.  Docker search registry v2 functionality is currently not supported at the time of this writing. See discussion since Feb 2015: "propose registry search functionality #206" https://github.com/docker/distribution/issues/206
+<details>
+<summary>Table of content</summary>
 
-view-private-registry-remote is a bash script for listing images in a private registry v2 from a remote system that does not have the NFS filesystem mounted where the images are stored.  This script requires ssh to be installed and configured on the systems required to run this script.  This script calls the view-private-registry script that is on the host with the NFS filesystem mounted.
+## Table of content
+- [Command Descriptions](#Command Descriptions)
+- [Install](#Install)
+- [Usage](#Usage)
+- [Output](#Output)
+
+    - [Author](#Author)
+    - [System OS script tested](#System-OS-script-tested)
+    - [Design Principles](#Design-Principles)
+    - [License](#License)
+
+</details>
+
+----
+
+## Description
+
+**view-private-registry** is a bash script for listing images in a private registry v2.  It does not require registry v2 to be running on the system, only the filesystem where the images are stored.  Docker search registry v2 functionality is currently not supported at the time of this writing. See discussion since Feb 2015: "propose registry search functionality #206" https://github.com/docker/distribution/issues/206
+
+**view-private-registry-remote** is a bash script for listing images in a private registry v2 from a remote system that does not have the NFS filesystem mounted where the images are stored.  This script requires ssh to be installed and configured on the systems required to run this script.  This script calls the view-private-registry script that is on the host with the NFS filesystem mounted.
 #### If you like this repository, select in the upper-right corner, STAR, thank you.
 
 ## Install
