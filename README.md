@@ -26,6 +26,7 @@ List images on docker registry v2
 - [Install](#Install)
 - [Usage](#Usage)
 - [Output](#Output)
+- [Version of registry v2 using](#Version of registry v2 using)
     - [Author](#Author)
     - [System OS script tested](#System-OS-script-tested)
     - [Design Principles](#Design-Principles)
