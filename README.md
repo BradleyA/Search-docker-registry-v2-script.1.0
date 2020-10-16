@@ -103,7 +103,7 @@ or
 [Return to top](https://github.com/BradleyA/Search-docker-registry-v2-script.1.0/blob/master/README.md#search-docker-registry-v2-script)
 
 ## TLS
-I wrote a few scripts that may help you with the private registry and TLS.  The scripts are [create-registry-tls.sh](https://github.com/BradleyA/docker-security-infrastructure/tree/master/docker-TLS#docker-tls), [copy-registry-tls.sh](https://github.com/BradleyA/docker-security-infrastructure/tree/master/docker-TLS#usage-10), and [check-registry-tls.sh](https://github.com/BradleyA/docker-security-infrastructure/tree/master/docker-TLS#usage-11).   These scripts support --help and --usage options to reduce the learning curve.
+I wrote a few scripts that may help you with the private registry and TLS.  The scripts are **create-registry-tls.sh**, **copy-registry-tls.sh**, and **check-registry-tls.sh** which can be found in [https://github.com/BradleyA/docker-security-infrastructure/blob/master/docker-TLS/README.md](https://github.com/BradleyA/docker-security-infrastructure/blob/master/docker-TLS/README.md).  These scripts support --help and --usage options to reduce the learning curve.
 
 [Return to top](https://github.com/BradleyA/Search-docker-registry-v2-script.1.0/blob/master/README.md#search-docker-registry-v2-script)
 
