@@ -26,7 +26,7 @@ List images on docker registry v2
 - [Install](#Install)
 - [Usage](#Usage)
 - [Output](#Output)
-- [TLS](#Registry with TLS)
+- [TLS](#TLS)
     - [Author](#Author)
     - [Version of registry v2 using](#Version of registry v2 using)
     - [System OS script tested](#System-OS-script-tested)
@@ -103,7 +103,7 @@ or
 
 [Return to top](https://github.com/BradleyA/Search-docker-registry-v2-script.1.0/blob/master/README.md#search-docker-registry-v2-script)
 
-## Registry with TLS
+## TLS
 I wrote a few scripts that may help you with the private registry and TLS.  The scripts are [create-registry-tls.sh](https://github.com/BradleyA/docker-security-infrastructure/tree/master/docker-TLS#usage-9), [copy-registry-tls.sh](https://github.com/BradleyA/docker-security-infrastructure/tree/master/docker-TLS#usage-10), and [check-registry-tls.sh](https://github.com/BradleyA/docker-security-infrastructure/tree/master/docker-TLS#usage-11).   These scripts support --help and --usage options to reduce the learning curve.
 
 [Return to top](https://github.com/BradleyA/Search-docker-registry-v2-script.1.0/blob/master/README.md#search-docker-registry-v2-script)
