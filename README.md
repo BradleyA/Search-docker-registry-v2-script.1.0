@@ -66,12 +66,16 @@ Edit view-private-registry-remote script, change REMOTE_REGISTRY_HOST to the rem
 
 Move the script or create a symbolic link to a location in your working path (see example above). 
 
+[Return to top](https://github.com/BradleyA/Search-docker-registry-v2-script.1.0/blob/master/README.md#search-docker-registry-v2-script)
+
 ## Usage
 
     view-private-registry
 or
 
     view-private-registry-remote
+
+[Return to top](https://github.com/BradleyA/Search-docker-registry-v2-script.1.0/blob/master/README.md#search-docker-registry-v2-script)
 
 ## Output
 
@@ -95,14 +99,22 @@ or
     Number of images:   16
     Disk space used:    1.7G    /mnt/three/docker-registry/registry-data
 
+[Return to top](https://github.com/BradleyA/Search-docker-registry-v2-script.1.0/blob/master/README.md#search-docker-registry-v2-script)
+
 #### Version of registry v2 using
  * registry github.com/docker/distribution v2.1.1
- 
+
+[Return to top](https://github.com/BradleyA/Search-docker-registry-v2-script.1.0/blob/master/README.md#search-docker-registry-v2-script)
+
 #### Registry with TLS
 I wrote a few scripts that may help you with the private registry and TLS.  The scripts are [create-registry-tls.sh](https://github.com/BradleyA/docker-security-infrastructure/tree/master/docker-TLS#usage-9), [copy-registry-tls.sh](https://github.com/BradleyA/docker-security-infrastructure/tree/master/docker-TLS#usage-10), and [check-registry-tls.sh](https://github.com/BradleyA/docker-security-infrastructure/tree/master/docker-TLS#usage-11).   These scripts support --help and --usage options to reduce the learning curve.
 
+[Return to top](https://github.com/BradleyA/Search-docker-registry-v2-script.1.0/blob/master/README.md#search-docker-registry-v2-script)
+
 #### Author
 [<img id="github" src="images/github.png" width="50" a="https://github.com/BradleyA/">](https://github.com/BradleyA/)    [<img src="images/linkedin.png" style="max-width:100%;" >](https://www.linkedin.com/in/bradleyhallen) [<img id="twitter" src="images/twitter.png" width="50" a="twitter.com/bradleyaustintx/">](https://twitter.com/bradleyaustintx/)       <a href="https://twitter.com/intent/follow?screen_name=bradleyaustintx"> <img src="https://img.shields.io/twitter/follow/bradleyaustintx.svg?label=Follow%20@bradleyaustintx" alt="Follow @bradleyaustintx" />    </a>          [![GitHub followers](https://img.shields.io/github/followers/BradleyA.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/BradleyA?tab=followers)
+
+[Return to top](https://github.com/BradleyA/Search-docker-registry-v2-script.1.0/blob/master/README.md#search-docker-registry-v2-script)
 
 #### System OS script tested
  * CoreOS 723.3.0
@@ -111,10 +123,14 @@ I wrote a few scripts that may help you with the private registry and TLS.  The 
  * Ubuntu 16.04.7 LTS (amd64,armv7l)
  * Ubuntu 18.04.5 LTS (amd64,armv7l)
 
+[Return to top](https://github.com/BradleyA/Search-docker-registry-v2-script.1.0/blob/master/README.md#search-docker-registry-v2-script)
+
 #### Design Principles
  * Have a simple setup process and a minimal learning curve
  * Be usable as non-root
  * Be easy to install and configure
+ 
+ [Return to top](https://github.com/BradleyA/Search-docker-registry-v2-script.1.0/blob/master/README.md#search-docker-registry-v2-script)
 
 #### License
 MIT License
@@ -126,3 +142,5 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[Return to top](https://github.com/BradleyA/Search-docker-registry-v2-script.1.0/blob/master/README.md#search-docker-registry-v2-script)
