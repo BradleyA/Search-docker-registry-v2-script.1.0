@@ -27,6 +27,7 @@ List images on docker registry v2
 - [Usage](#Usage)
 - [Output](#Output)
 - [TLS](#TLS)
+- [Contribute](#Contribute)
 - [Author](#Author)
 - [Tested OS](#Tested-OS)
 - [Design Principles](#Design-Principles)
