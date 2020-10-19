@@ -28,6 +28,6 @@ A description of any alternative solutions or features you've considered or are 
  
        -> 
  
-  - Command: ( github-repository/setup.github.repository.sh  2.199.861 )
+  - Command: ( check-markit 4.1.4.803 2020-08-29T22:25:47.061044-05:00 (CDT) https://github.com/BradleyA/markit.git master uadmin )
 
         -> 
