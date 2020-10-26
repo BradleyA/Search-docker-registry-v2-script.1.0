@@ -49,7 +49,7 @@ List images on docker registry v2
 [Return to top](https://github.com/BradleyA/Search-docker-registry-v2-script.1.0/blob/master/README.md#search-docker-registry-v2-script)
 
 ## Install
-To install, change directory to the location you want to download the scripts.  Use git to pull or clone these scripts into the directory.  If you do not have git then enter; "sudo apt-get install git" if using Ubuntu.  On the github page of this script use the "HTTPS clone URL" with the 'git clone' command. 
+To install, change into a directory that you want to download the scripts.  Use git to pull or clone these scripts into the directory.  If you do not have git then enter; "sudo apt-get install git" if using Ubuntu.  On the github page of this script use the "HTTPS clone URL" with the 'git clone' command. 
 
     git clone https://github.com/BradleyA/Search-docker-registry-v2-script.git
     cd Search-docker-registry-v2-script
