@@ -4,7 +4,7 @@
 [![GitHub Commits Since](https://img.shields.io/github/commits-since/BradleyA/Search-docker-registry-v2-script/v2.2?color=orange)](https://github.com/BradleyA/Search-docker-registry-v2-script/commits/)
 [![GitHub Last Commits](https://img.shields.io/github/last-commit/BradleyA/Search-docker-registry-v2-script.svg)](https://github.com/BradleyA/Search-docker-registry-v2-script/commits/)
 
-[![Open GitHub Issue](https://img.shields.io/badge/Open-Incident-brightgreen.svg)](https://github.com/BradleyA/Search-docker-registry-v2-script/issues/new/choose)
+[![Open GitHub Issue](https://img.shields.io/badge/Open_an-Incident-brightgreen.svg)](https://github.com/BradleyA/Search-docker-registry-v2-script/issues/new/choose)
 [![GitHub Open Issues](https://img.shields.io/github/issues/BradleyA/Search-docker-registry-v2-script?color=purple)](https://github.com/BradleyA/Search-docker-registry-v2-script/issues?q=is%3Aopen+is%3Aissue)
 [![GitHub Closed Issues](https://img.shields.io/github/issues-closed/BradleyA/Search-docker-registry-v2-script?color=purple)](https://github.com/BradleyA/Search-docker-registry-v2-script/issues?q=is%3Aclosed+is%3Aissue)
 
