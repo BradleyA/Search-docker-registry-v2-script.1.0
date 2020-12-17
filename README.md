@@ -8,7 +8,7 @@
 [![GitHub Open Issues](https://img.shields.io/github/issues/BradleyA/Search-docker-registry-v2-script?color=purple)](https://github.com/BradleyA/Search-docker-registry-v2-script/issues?q=is%3Aopen+is%3Aissue)
 [![GitHub Closed Issues](https://img.shields.io/github/issues-closed/BradleyA/Search-docker-registry-v2-script?color=purple)](https://github.com/BradleyA/Search-docker-registry-v2-script/issues?q=is%3Aclosed+is%3Aissue)
 
-[<img alt="GitHub Clones" src="https://img.shields.io/static/v1?label=Clones&message=236&color=blueviolet">](https://github.com/BradleyA/Search-docker-registry-v2-script/blob/master/images/clone.table.md)
+[<img alt="GitHub Clones" src="https://img.shields.io/static/v1?label=Clones&message=287&color=blueviolet">](https://github.com/BradleyA/Search-docker-registry-v2-script/blob/master/images/clone.table.md)
 [<img alt="GitHub Views" src="https://img.shields.io/static/v1?label=Views&message=3484&color=blueviolet">](https://github.com/BradleyA/Search-docker-registry-v2-script/blob/master/images/view.table.md)
 [![GitHub Size](https://img.shields.io/github/repo-size/BradleyA/Search-docker-registry-v2-script.svg)](https://github.com/BradleyA/Search-docker-registry-v2-script/)
 ![Language Bash](https://img.shields.io/badge/%20Language-bash-blue.svg)
