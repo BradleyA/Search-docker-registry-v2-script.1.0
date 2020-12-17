@@ -17,4 +17,4 @@ Total views: 1370
 ###### Updated: 2020-01-04
 **Note**  Data collection stopped between 10/14/2019 & 12/9/2019
 
-[Return to README](https://github.com/BradleyA/Search-docker-registry-v2-script.1.0/blob/master/README.md#Search-docker-registry-v2-script)
+[Return to README](https://github.com/BradleyA/Search-docker-registry-v2-script.1.0/blob/master/README.md)
