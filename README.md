@@ -124,6 +124,12 @@ Please do contribute! Issues and pull requests are welcome.  Thank you for your 
 
 [Return to top](https://github.com/BradleyA/Search-docker-registry-v2-script.1.0/blob/master/README.md#search-docker-registry-v2-script)
 
+[![Stargazers repo roster for @BradleyA/Search-docker-registry-v2-script.1.0](https://reporoster.com/stars/BradleyA/Search-docker-registry-v2-script.1.0)](https://github.com/BradleyA/Search-docker-registry-v2-script.1.0/stargazers)
+[Return to top](https://github.com/BradleyA/Search-docker-registry-v2-script.1.0/blob/master/README.md#search-docker-registry-v2-script)
+
+[![Forkers repo roster for @BradleyA/Search-docker-registry-v2-script.1.0](https://reporoster.com/forks/BradleyA/Search-docker-registry-v2-script.1.0)](https://github.com/BradleyA/Search-docker-registry-v2-script.1.0/network/members)
+[Return to top](https://github.com/BradleyA/Search-docker-registry-v2-script.1.0/blob/master/README.md#search-docker-registry-v2-script)
+
 #### Tested OS
  * CoreOS 723.3.0
  * Raspbian GNU/Linux 10 (buster)
