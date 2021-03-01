@@ -85,7 +85,7 @@ or
 
 ## Output
 
-    $ view-private-registry`
+    $ view-private-registry
     busybox:latest
     gcr.io/google_containers/etcd:2.0.9
     gcr.io/google_containers/hyperkube:v0.21.2
