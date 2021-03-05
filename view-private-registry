@@ -18,7 +18,7 @@ find $PERSISTENT_REGISTRY_STORAGE_FILESYSTEM_ROOTDIRECTORY -print | \
 	sed -e 's/\/_manifests\/tags\//:/' | \
 	sed -e 's/\/current//' | \
 	sed -e 's/^.*repositories\//	/' | \
-	sort > /tmp/a1
+	sort -V > /tmp/a1
 cat /tmp/a1
 wc -l /tmp/a1 > /tmp/a2
 echo "Number of images:	`cat /tmp/a2 | awk {'print $1'}`"
