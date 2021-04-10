@@ -36,9 +36,9 @@
     * added view.table.md
  * README.md
     * updated README.md
-    * updated README.md #13 from bneradt <Brian Neradt>
+    * updated README.md #13 from bneradt (Brian Neradt)
  * view-private-registry
-    * Sort image tags by version instead of purely alphabetically #14 from tdluk <Theo Lukens>
+    * Sort image tags by version instead of purely alphabetically #14 from tdluk (Theo Lukens)
     * change output order to latest version first #15
  * added SECURITY.md
  * added CHANGELOG.md
