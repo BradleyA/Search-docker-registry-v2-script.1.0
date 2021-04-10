@@ -7,6 +7,8 @@
 [![Open GitHub Issue](https://img.shields.io/badge/Open_an-Incident-brightgreen.svg)](https://github.com/BradleyA/Search-docker-registry-v2-script/issues/new/choose)
 [![GitHub Open Issues](https://img.shields.io/github/issues/BradleyA/Search-docker-registry-v2-script?color=purple)](https://github.com/BradleyA/Search-docker-registry-v2-script/issues?q=is%3Aopen+is%3Aissue)
 [![GitHub Closed Issues](https://img.shields.io/github/issues-closed/BradleyA/Search-docker-registry-v2-script?color=purple)](https://github.com/BradleyA/Search-docker-registry-v2-script/issues?q=is%3Aclosed+is%3Aissue)
+![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/BradleyA/Search-docker-registry-v2-script)
+![GitHub pull requests](https://img.shields.io/github/issues-pr-closed-raw/BradleyA/Search-docker-registry-v2-script)
 
 [<img alt="GitHub Repo Clones" src="https://img.shields.io/static/v1?label=Repo_Clones&message=287&color=blueviolet">](https://github.com/BradleyA/Search-docker-registry-v2-script/blob/master/images/clone.table.md)
 [<img alt="GitHub Repo Views" src="https://img.shields.io/static/v1?label=Repo_Views&message=4041&color=blueviolet">](https://github.com/BradleyA/Search-docker-registry-v2-script/blob/master/images/view.table.md)
