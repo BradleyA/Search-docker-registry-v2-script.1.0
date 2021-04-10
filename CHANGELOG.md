@@ -18,7 +18,7 @@
     * #10 Search-docker-registry-v2-script.1.0/view-private-registry-remote - retest with new ARCHITECTURE
 
 # Latest Release -->  Version 2.3.2
-#### Release Name 2.3.1
+#### Release Name 2.3.2
 #### Release Date 2021-04-10
  * modify output order using image tags
 
