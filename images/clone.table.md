@@ -4,7 +4,7 @@ Date:           |  01-04  |  01-11  |  01-18  |  01-25  |  02-01  |  02-08  |  0
 Clones:         |  7      |  4      |  3      |  2      |  2      |  6      |  2      |  6      |  5      |  5      |  7      |  2      |  6
 Unique clones:  |      5  |      3  |      3  |      2  |      2  |      6  |      2  |      6  |      4  |      5  |      7  |      2  |      6
 
-Total clones: 293
+Total clones: 57
 ###### Updated: 2021-04-10
 
 #### GitHub clones
