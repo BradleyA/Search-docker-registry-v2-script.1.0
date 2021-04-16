@@ -117,7 +117,7 @@ I wrote a few scripts that may help you with the private registry and TLS.  The 
 ----
 
 #### Contribute
-Please do contribute! Issues and pull requests are welcome.  Thank you for your help improving software.
+Please do contribute! Issues, comments, and pull requests are welcome.  Thank you for your help improving software.
 
 [Return to top](https://github.com/BradleyA/Search-docker-registry-v2-script.1.0/blob/master/README.md#search-docker-registry-v2-script)
 
